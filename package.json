@@ -1,0 +1,42 @@
+{
+  "name": "react_typed_i18n",
+  "version": "1.0.0",
+  "description": "A React hook to enable I18n on React Projects, Works for React and NextJS",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm run lint",
+    "preversion" : "npm run lint",
+
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alandoni/react_typed_i18n.git"
+  },
+  "keywords": [
+    "React",
+    "Hook",
+    "Typed",
+    "I18n",
+    "useTranslation",
+    "Translation"
+  ],
+  "author": "Alan Donizete Quintiliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alandoni/react_typed_i18n/issues"
+  },
+  "homepage": "https://github.com/alandoni/react_typed_i18n#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
