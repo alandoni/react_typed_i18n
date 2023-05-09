@@ -1,5 +1,5 @@
 {
-  "name": "react_typed_i18n",
+  "name": "react-hook-typed-i18n",
   "version": "1.0.0",
   "description": "A React hook to enable I18n on React Projects, Works for React and NextJS",
   "main": "lib/index.js",
